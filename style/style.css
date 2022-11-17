@@ -1,3 +1,7 @@
+body {
+    background-color: #08A045;
+}
+
 h1 {
     text-align: center;
     font-family: Helvetica, sans-serif;
@@ -6,4 +10,12 @@ h1 {
 p {
     text-align: center;
     font-family: Arial, sans-serif;
+}
+
+.item1 {
+    font-size: 24px;
+}
+
+.item2 {
+    font-size: 18px;
 }
