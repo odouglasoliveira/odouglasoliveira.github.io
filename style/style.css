@@ -7,6 +7,11 @@ h1 {
     font-family: Helvetica, sans-serif;
 }
 
+.foto {
+    display: flex;
+    justify-content: center;
+}
+
 p {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -18,4 +23,16 @@ p {
 
 .item2 {
     font-size: 18px;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
