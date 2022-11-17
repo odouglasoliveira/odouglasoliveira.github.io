@@ -20,6 +20,12 @@ p {
     font-size: 18px;
 }
 
+.lista {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 footer {
     display: flex;
     flex-direction: column;
