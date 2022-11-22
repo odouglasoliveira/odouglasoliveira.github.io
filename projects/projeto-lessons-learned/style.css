@@ -1,0 +1,62 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+p , h1 , h2 {
+  color: rgb(51, 51, 51);
+}
+
+p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+li {
+  color: rgb(51, 51, 51);
+}
+
+ul , ol {
+  display: inline-block;
+  padding: 0 100px;
+}
+
+#minha_foto {
+  width: 250px;
+  margin: 50px 0 0 150px;
+  border-radius: 50px;
+  border: 1px solid rgb(51, 51, 51);
+}
+
+.ultima-secao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lado-esquerdo {
+  width: 50%;
+}
+
+.lado-direito {
+  width: 30%;
+}
+
