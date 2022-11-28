@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #08A045;
+    background-color: #E8E9F3;
     width: 100vw;
 }
 
@@ -28,7 +28,9 @@ h1 {
 
 .left-content img {
     border-radius: 50%;
-    border: 4px solid #05ca54;
+    background: linear-gradient(315deg, #f0f0f0, #cacaca);
+    box-shadow:  -41px -41px 83px #c5c5c5,
+                 41px 41px 83px #fbfbfb;
 }
 
 .right-content {
