@@ -1,5 +1,5 @@
 
 # Meu portfólio
 
-Um site com locais de contato e um breve resumo da minha carreira.
+Um website com informações de contato e um breve resumo da minha carreira como desenvolvedor.
 
