@@ -1,0 +1,23 @@
+{
+  "name": "odouglasoliveira.github.io",
+  "version": "1.0.0",
+  "description": "Um website com informações de contato e um breve resumo da minha carreira como desenvolvedor.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odouglasoliveira/odouglasoliveira.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odouglasoliveira/odouglasoliveira.github.io/issues"
+  },
+  "homepage": "https://github.com/odouglasoliveira/odouglasoliveira.github.io#readme",
+  "dependencies": {
+    "vite": "^4.3.9"
+  }
+}
