@@ -10,7 +10,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: #1F2421;
   background-color: white;
@@ -18,6 +18,9 @@ body {
 
 main {
   display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 hr {
@@ -28,6 +31,14 @@ hr {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.coding-image {
+  width: 500px;
+}
+
+footer {
+  text-align: center;
 }
 
 main p {
@@ -49,7 +60,7 @@ header {
   top: 10px;
   width: 100%;
   padding-bottom: 10px;
-  border-bottom: 1px solid #1F2421;
+  /* border-bottom: 1px solid #1F2421; */
 }
 
 header a {
