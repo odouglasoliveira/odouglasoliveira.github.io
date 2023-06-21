@@ -23,22 +23,13 @@ main {
   align-items: center;
 }
 
-hr {
-  border: none;
-  border-top: 1px solid white;
-  margin: 0;
-  padding: 0;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .coding-image {
   width: 500px;
 }
 
 footer {
   text-align: center;
+  padding: 1rem 0;
 }
 
 main p {
@@ -55,12 +46,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem 0;
   gap: 20px;
-  position: fixed;
-  top: 10px;
   width: 100%;
-  padding-bottom: 10px;
-  /* border-bottom: 1px solid #1F2421; */
 }
 
 header a {
@@ -98,4 +86,19 @@ header img {
 
 section {
   padding: 4rem;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in-animation 1s ease-in forwards;
+}
+
+@keyframes fade-in-animation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
