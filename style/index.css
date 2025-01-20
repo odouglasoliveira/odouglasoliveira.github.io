@@ -57,10 +57,6 @@ header a {
   font-weight: bold;
 }
 
-header img {
-  width: 20px;
-}
-
 .link {
   position: relative;
   display: inline-block;
@@ -88,17 +84,21 @@ section {
   padding: 4rem;
 }
 
-.fade-in {
-  opacity: 0;
-  animation: fade-in-animation 1s ease-in forwards;
-}
-
-@keyframes fade-in-animation {
-  0% {
-    opacity: 0;
+@media (max-width: 600px) {
+  .image-section {
+    display: none;
   }
 
-  100% {
-    opacity: 1;
+  main {
+    width: 100%;
+  }
+
+  .about-section {
+    padding: 0;
+    width: 80%;
+  }
+
+  .about-section {
+    margin-bottom: 128px;
   }
 }
